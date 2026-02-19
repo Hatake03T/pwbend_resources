@@ -13,7 +13,7 @@ builder.Services.AddDbContext<CLASEContext>(opciones => opciones.UseSqlServer(
     builder.Configuration.GetConnectionString("NOMBREDELABDConnection")
     ));
 
-Migrations
+Migrations en la consola Nuget Package Console
 1. Add-Migration InitialCreate (Crea el plano)
 2. Update-Database (Construye la BD)
 Cambiar algo:
@@ -21,3 +21,4 @@ Add-Migration NombreDelCambio
 Update-Database
 
 		
+
