@@ -1,0 +1,22 @@
+SQL CONNECTION - API REST
+
+appsettings.json
+
+Agregar
+ "ConnectionStrings": {
+   "EscuelaDbConnection": "Server=(localdb)\\MSSQLLocalDB;Database=NOMBREDELABD;Trusted_Connection=True;"
+
+Program.cs
+Agregar:
+	//SQL SERVER
+builder.Services.AddDbContext<CLASEContext>(opciones => opciones.UseSqlServer(
+    builder.Configuration.GetConnectionString("EscuelaDBConnection")
+    ));
+
+Migrations
+1. Add-Migration InitialCreate (Crea el plano)
+2. Update-Database (Construye la BD)
+Cambiar algo:
+Add-Migration NombreDelCambio
+Update-Database
+		
