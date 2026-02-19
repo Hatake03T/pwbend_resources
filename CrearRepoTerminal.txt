@@ -1,0 +1,20 @@
+Pasos para crear repo
+1. Git init
+2. git add .
+3. git commit -m "Initial Commit"
+4. git remote add origin RUTADEGITHUB
+5. git branch //Esto es para saber si la rama es master o main.
+6. git push -u origin master //en nuestro caso era master
+7. IMPORTANTE - hay ciertas carpetas que no se deben subir como la obj por lo que requiere un archivo .gitignore
+  git rm -r --cached obj //esto lo que hace es remueve esos archivos que no se deben subir al repo en este caso el folder obj pero tambien puede ser el bin.
+8. git add .
+9. git commit -m "Add gitignore and remove obj folder"
+10. git push //Si da error es porque hay algo que se creo en github que el repo local no tiene. 
+11. git pull origin master --allow-unrelated-histories
+12 git push origin master
+--- SI SE HAN INSTALADO PAQUETES--
+13.git status //Para ver si esta up to date o que cambios se deben guardar
+14. git rm -r cached obj //esto se hace cada vez que se haga una instalacion o un push porque se suben carpetas que no se deberian subir como el obj o el bin.
+15. git add .
+16 git commit -m "Add gitignore and remove build folders"
+17. git push
