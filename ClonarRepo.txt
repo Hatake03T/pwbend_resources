@@ -1,0 +1,8 @@
+Tienen que abrir la terminal el VS insiders vea!
+
+1. git clone https://github.com/Hatake03T/MoodPet.git
+2. cd MoodPet
+3. git pull
+4. git add .
+5. git commit -m "mensaje de prueba"
+6. git push
