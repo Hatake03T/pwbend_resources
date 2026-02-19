@@ -10,7 +10,7 @@ Program.cs
 Agregar:
 	//SQL SERVER
 builder.Services.AddDbContext<CLASEContext>(opciones => opciones.UseSqlServer(
-    builder.Configuration.GetConnectionString("EscuelaDBConnection")
+    builder.Configuration.GetConnectionString("NOMBREDELABDConnection")
     ));
 
 Migrations
@@ -19,4 +19,5 @@ Migrations
 Cambiar algo:
 Add-Migration NombreDelCambio
 Update-Database
+
 		
