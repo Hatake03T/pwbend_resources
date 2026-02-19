@@ -3,6 +3,7 @@
 3. git branch //Verificar que estan trabajando en su rama.
 4. git push -u origin nombre-rama
 --Cuando esten trabajando en su rama haran --
+Para cambiar de rama  git switch [nombre-de-la-rama].
 5. git add .
 6. git commit -m "Comentario xD"
 7. git push
