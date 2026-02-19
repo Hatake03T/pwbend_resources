@@ -1,0 +1,9 @@
+1. git pull //para actualizar
+2. git checkout -b NOMBRE-rama
+3. git branch //Verificar que estan trabajando en su rama.
+4. git push -u origin nombre-rama
+--Cuando esten trabajando en su rama haran --
+5. git add .
+6. git commit -m "Comentario xD"
+7. git push
+---PORFAVOR REVISAR QUE NO ESTEN TRABAJANDO EN LA RAMA MASTER---
